@@ -1,0 +1,158 @@
+[
+ {
+  "name": "Asylum Demon",
+  "area": "Undead Asylum",
+  "hp": 825,
+  "dlc": false
+ },
+ {
+  "name": "Taurus Demon",
+  "area": "Undead Burg",
+  "hp": 1215,
+  "dlc": false
+ },
+ {
+  "name": "Bell Gargoyles",
+  "area": "Undead Parish",
+  "hp": 1000,
+  "dlc": false
+ },
+ {
+  "name": "Capra Demon",
+  "area": "Lower Undead Burg",
+  "hp": 1176,
+  "dlc": false
+ },
+ {
+  "name": "Gaping Dragon",
+  "area": "Depths",
+  "hp": 4660,
+  "dlc": false
+ },
+ {
+  "name": "Moonlight Butterfly",
+  "area": "Darkroot Garden",
+  "hp": 1506,
+  "dlc": false
+ },
+ {
+  "name": "Sif, the Great Grey Wolf",
+  "area": "Darkroot Garden",
+  "hp": 3432,
+  "dlc": false
+ },
+ {
+  "name": "Chaos Witch Quelaag",
+  "area": "Blighttown",
+  "hp": 3139,
+  "dlc": false
+ },
+ {
+  "name": "Stray Demon",
+  "area": "Undead Asylum",
+  "hp": 5250,
+  "dlc": false
+ },
+ {
+  "name": "Iron Golem",
+  "area": "Sen's Fortress",
+  "hp": 2880,
+  "dlc": false
+ },
+ {
+  "name": "Ornstein & Smough",
+  "area": "Anor Londo",
+  "hp": null,
+  "dlc": false
+ },
+ {
+  "name": "Dark Sun Gwyndolin",
+  "area": "Anor Londo",
+  "hp": 2011,
+  "dlc": false
+ },
+ {
+  "name": "Crossbreed Priscilla",
+  "area": "Painted World",
+  "hp": 2300,
+  "dlc": false
+ },
+ {
+  "name": "Pinwheel",
+  "area": "Catacombs",
+  "hp": 1326,
+  "dlc": false
+ },
+ {
+  "name": "Gravelord Nito",
+  "area": "Tomb of the Giants",
+  "hp": 4317,
+  "dlc": false
+ },
+ {
+  "name": "Seath the Scaleless",
+  "area": "Crystal Caves",
+  "hp": 5525,
+  "dlc": false
+ },
+ {
+  "name": "Four Kings",
+  "area": "New Londo Ruins",
+  "hp": null,
+  "dlc": false
+ },
+ {
+  "name": "Ceaseless Discharge",
+  "area": "Demon Ruins",
+  "hp": 4200,
+  "dlc": false
+ },
+ {
+  "name": "Demon Firesage",
+  "area": "Demon Ruins",
+  "hp": 5448,
+  "dlc": false
+ },
+ {
+  "name": "Centipede Demon",
+  "area": "Demon Ruins",
+  "hp": 3432,
+  "dlc": false
+ },
+ {
+  "name": "Bed of Chaos",
+  "area": "Lost Izalith",
+  "hp": null,
+  "dlc": false
+ },
+ {
+  "name": "Sanctuary Guardian",
+  "area": "Sanctuary Garden",
+  "hp": 2560,
+  "dlc": true
+ },
+ {
+  "name": "Knight Artorias",
+  "area": "Royal Wood",
+  "hp": 3750,
+  "dlc": true
+ },
+ {
+  "name": "Black Dragon Kalameet",
+  "area": "Royal Wood",
+  "hp": 5400,
+  "dlc": true
+ },
+ {
+  "name": "Manus, Father of the Abyss",
+  "area": "Chasm of the Abyss",
+  "hp": 6666,
+  "dlc": true
+ },
+ {
+  "name": "Gwyn, Lord of Cinder",
+  "area": "Kiln of the First Flame",
+  "hp": 4185,
+  "dlc": false
+ }
+]

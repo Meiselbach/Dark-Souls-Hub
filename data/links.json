@@ -1,0 +1,46 @@
+[
+ {
+  "title": "Dark Souls Wiki (Fextralife)",
+  "url": "https://darksouls.wiki.fextralife.com/Dark_Souls_Wiki",
+  "category": "Wiki & Reference",
+  "description": "Items, bosses, NPC quests, maps, builds. The go-to reference."
+ },
+ {
+  "title": "DS1 Soul Level Calculator",
+  "url": "https://trifectaiii.github.io/DS1-Soul-Level-Calculator/",
+  "category": "Tools",
+  "description": "Original web calculator. Also built into this app: Level Calculator tab.",
+  "builtin": "Level Calculator"
+ },
+ {
+  "title": "DSR Any% Guide",
+  "url": "https://docs.google.com/document/d/1VfRxLKBXdt2IxAO7Y2RS2IKDgqoul2galqMlCTq2HIk/edit?tab=t.0#heading=h.kjf1vtkd78t8",
+  "category": "Speedrunning",
+  "description": "Community Google Doc route guide for Dark Souls Remastered Any%."
+ },
+ {
+  "title": "speedrun.com: Dark Souls Remastered",
+  "url": "https://www.speedrun.com/darksoulsremastered",
+  "category": "Speedrunning",
+  "description": "Leaderboards, rules, category info and resources."
+ },
+ {
+  "title": "DSR Bingo",
+  "url": "https://github.com/Meiselbach/DSR-Bingo",
+  "category": "Challenges",
+  "description": "Dark Souls Remastered bingo board (GitHub)."
+ },
+ {
+  "title": "Boss Weakness spreadsheet source",
+  "url": "https://docs.google.com/spreadsheets/d/18qRmCd9MMnF6k_9rB7_Znl0pNZVTp75C2zviGSzc_C4/edit#gid=1973471964",
+  "category": "Wiki & Reference",
+  "description": "Source sheet for the boss defense values. Built in: Damage & Weaknesses tab.",
+  "builtin": "Damage & Weaknesses"
+ },
+ {
+  "title": "Damage calculation sheet",
+  "url": "https://docs.google.com/spreadsheets/d/1SDQbKEDs0-j1W6cyjGdiad6OvVlcqPA7lM1ZEK4iDoU/edit#gid=0",
+  "category": "Wiki & Reference",
+  "description": "Damage formula sheet credited in the weakness spreadsheet."
+ }
+]

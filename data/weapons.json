@@ -1,0 +1,704 @@
+[
+ {
+  "name": "Dagger",
+  "class": "Dagger",
+  "material": "Normal Titanite",
+  "dlc": false
+ },
+ {
+  "name": "Parrying Dagger",
+  "class": "Dagger",
+  "material": "Normal Titanite",
+  "dlc": false
+ },
+ {
+  "name": "Ghost Blade",
+  "class": "Dagger",
+  "material": "Twinkling Titanite",
+  "dlc": false
+ },
+ {
+  "name": "Bandit's Knife",
+  "class": "Dagger",
+  "material": "Normal Titanite",
+  "dlc": false
+ },
+ {
+  "name": "Priscilla's Dagger",
+  "class": "Dagger",
+  "material": "Twinkling Titanite",
+  "dlc": false
+ },
+ {
+  "name": "Dark Silver Tracer",
+  "class": "Dagger",
+  "material": "Twinkling Titanite",
+  "dlc": true
+ },
+ {
+  "name": "Shortsword",
+  "class": "Straight Sword",
+  "material": "Normal Titanite",
+  "dlc": false
+ },
+ {
+  "name": "Longsword",
+  "class": "Straight Sword",
+  "material": "Normal Titanite",
+  "dlc": false
+ },
+ {
+  "name": "Broadsword",
+  "class": "Straight Sword",
+  "material": "Normal Titanite",
+  "dlc": false
+ },
+ {
+  "name": "Broken Straight Sword",
+  "class": "Straight Sword",
+  "material": "Normal Titanite",
+  "dlc": false
+ },
+ {
+  "name": "Balder Side Sword",
+  "class": "Straight Sword",
+  "material": "Normal Titanite",
+  "dlc": false
+ },
+ {
+  "name": "Crystal Straight Sword",
+  "class": "Straight Sword",
+  "material": "Twinkling Titanite",
+  "dlc": false
+ },
+ {
+  "name": "Sunlight Straight Sword",
+  "class": "Straight Sword",
+  "material": "Normal Titanite",
+  "dlc": false
+ },
+ {
+  "name": "Barbed Straight Sword",
+  "class": "Straight Sword",
+  "material": "Normal Titanite",
+  "dlc": false
+ },
+ {
+  "name": "Silver Knight Straight Sword",
+  "class": "Straight Sword",
+  "material": "Twinkling Titanite",
+  "dlc": false
+ },
+ {
+  "name": "Astora's Straight Sword",
+  "class": "Straight Sword",
+  "material": "Twinkling Titanite",
+  "dlc": false
+ },
+ {
+  "name": "Darksword",
+  "class": "Straight Sword",
+  "material": "Normal Titanite",
+  "dlc": false
+ },
+ {
+  "name": "Drake Sword",
+  "class": "Straight Sword",
+  "material": "Dragon Scale",
+  "dlc": false
+ },
+ {
+  "name": "Straight Sword Hilt",
+  "class": "Straight Sword",
+  "material": "Normal Titanite",
+  "dlc": false
+ },
+ {
+  "name": "Bastard Sword",
+  "class": "Greatsword",
+  "material": "Normal Titanite",
+  "dlc": false
+ },
+ {
+  "name": "Claymore",
+  "class": "Greatsword",
+  "material": "Normal Titanite",
+  "dlc": false
+ },
+ {
+  "name": "Man-serpent Greatsword",
+  "class": "Greatsword",
+  "material": "Normal Titanite",
+  "dlc": false
+ },
+ {
+  "name": "Flamberge",
+  "class": "Greatsword",
+  "material": "Normal Titanite",
+  "dlc": false
+ },
+ {
+  "name": "Crystal Greatsword",
+  "class": "Greatsword",
+  "material": "Twinkling Titanite",
+  "dlc": false
+ },
+ {
+  "name": "Stone Greatsword",
+  "class": "Greatsword",
+  "material": "Twinkling Titanite",
+  "dlc": false
+ },
+ {
+  "name": "Greatsword of Artorias",
+  "class": "Greatsword",
+  "material": "Demon Titanite",
+  "dlc": false
+ },
+ {
+  "name": "Greatsword of Artorias (Cursed)",
+  "class": "Greatsword",
+  "material": "Demon Titanite",
+  "dlc": false
+ },
+ {
+  "name": "Moonlight Greatsword",
+  "class": "Greatsword",
+  "material": "Twinkling Titanite",
+  "dlc": false
+ },
+ {
+  "name": "Black Knight Sword",
+  "class": "Greatsword",
+  "material": "Twinkling Titanite",
+  "dlc": false
+ },
+ {
+  "name": "Great Lord Greatsword",
+  "class": "Greatsword",
+  "material": "Demon Titanite",
+  "dlc": false
+ },
+ {
+  "name": "Abyss Greatsword",
+  "class": "Greatsword",
+  "material": "Demon Titanite",
+  "dlc": true
+ },
+ {
+  "name": "Obsidian Greatsword",
+  "class": "Greatsword",
+  "material": "Twinkling Titanite",
+  "dlc": true
+ },
+ {
+  "name": "Zweihander",
+  "class": "Ultra Greatsword",
+  "material": "Normal Titanite",
+  "dlc": false
+ },
+ {
+  "name": "Greatsword",
+  "class": "Ultra Greatsword",
+  "material": "Normal Titanite",
+  "dlc": false
+ },
+ {
+  "name": "Demon Great Machete",
+  "class": "Ultra Greatsword",
+  "material": "Twinkling Titanite",
+  "dlc": false
+ },
+ {
+  "name": "Dragon Greatsword",
+  "class": "Ultra Greatsword",
+  "material": "Dragon Scale",
+  "dlc": false
+ },
+ {
+  "name": "Black Knight Greatsword",
+  "class": "Ultra Greatsword",
+  "material": "Twinkling Titanite",
+  "dlc": false
+ },
+ {
+  "name": "Scimitar",
+  "class": "Curved Sword",
+  "material": "Normal Titanite",
+  "dlc": false
+ },
+ {
+  "name": "Falchion",
+  "class": "Curved Sword",
+  "material": "Normal Titanite",
+  "dlc": false
+ },
+ {
+  "name": "Shotel",
+  "class": "Curved Sword",
+  "material": "Normal Titanite",
+  "dlc": false
+ },
+ {
+  "name": "Jagged Ghost Blade",
+  "class": "Curved Sword",
+  "material": "Twinkling Titanite",
+  "dlc": false
+ },
+ {
+  "name": "Painting Guardian Sword",
+  "class": "Curved Sword",
+  "material": "Normal Titanite",
+  "dlc": false
+ },
+ {
+  "name": "Quelaag's Furysword",
+  "class": "Curved Sword",
+  "material": "Demon Titanite",
+  "dlc": false
+ },
+ {
+  "name": "Gold Tracer",
+  "class": "Curved Sword",
+  "material": "Twinkling Titanite",
+  "dlc": true
+ },
+ {
+  "name": "Uchigatana",
+  "class": "Katana",
+  "material": "Normal Titanite",
+  "dlc": false
+ },
+ {
+  "name": "Iaito",
+  "class": "Katana",
+  "material": "Normal Titanite",
+  "dlc": false
+ },
+ {
+  "name": "Washing Pole",
+  "class": "Katana",
+  "material": "Normal Titanite",
+  "dlc": false
+ },
+ {
+  "name": "Chaos Blade",
+  "class": "Katana",
+  "material": "Twinkling Titanite",
+  "dlc": false
+ },
+ {
+  "name": "Murakumo",
+  "class": "Curved Greatsword",
+  "material": "Normal Titanite",
+  "dlc": false
+ },
+ {
+  "name": "Server",
+  "class": "Curved Greatsword",
+  "material": "Normal Titanite",
+  "dlc": false
+ },
+ {
+  "name": "Gravelord Sword",
+  "class": "Curved Greatsword",
+  "material": "Demon Titanite",
+  "dlc": false
+ },
+ {
+  "name": "Mail Breaker",
+  "class": "Piercing Sword",
+  "material": "Normal Titanite",
+  "dlc": false
+ },
+ {
+  "name": "Rapier",
+  "class": "Piercing Sword",
+  "material": "Normal Titanite",
+  "dlc": false
+ },
+ {
+  "name": "Estoc",
+  "class": "Piercing Sword",
+  "material": "Normal Titanite",
+  "dlc": false
+ },
+ {
+  "name": "Velka's Rapier",
+  "class": "Piercing Sword",
+  "material": "Twinkling Titanite",
+  "dlc": false
+ },
+ {
+  "name": "Ricard's Rapier",
+  "class": "Piercing Sword",
+  "material": "Normal Titanite",
+  "dlc": false
+ },
+ {
+  "name": "Hand Axe",
+  "class": "Axe",
+  "material": "Normal Titanite",
+  "dlc": false
+ },
+ {
+  "name": "Battle Axe",
+  "class": "Axe",
+  "material": "Normal Titanite",
+  "dlc": false
+ },
+ {
+  "name": "Crescent Axe",
+  "class": "Axe",
+  "material": "Twinkling Titanite",
+  "dlc": false
+ },
+ {
+  "name": "Butcher Knife",
+  "class": "Axe",
+  "material": "Normal Titanite",
+  "dlc": false
+ },
+ {
+  "name": "Golem Axe",
+  "class": "Axe",
+  "material": "Demon Titanite",
+  "dlc": false
+ },
+ {
+  "name": "Gargoyle Tail Axe",
+  "class": "Axe",
+  "material": "Twinkling Titanite",
+  "dlc": false
+ },
+ {
+  "name": "Greataxe",
+  "class": "Great Axe",
+  "material": "Normal Titanite",
+  "dlc": false
+ },
+ {
+  "name": "Demon's Greataxe",
+  "class": "Great Axe",
+  "material": "Twinkling Titanite",
+  "dlc": false
+ },
+ {
+  "name": "Dragon King Greataxe",
+  "class": "Great Axe",
+  "material": "Dragon Scale",
+  "dlc": false
+ },
+ {
+  "name": "Black Knight Greataxe",
+  "class": "Great Axe",
+  "material": "Twinkling Titanite",
+  "dlc": false
+ },
+ {
+  "name": "Club",
+  "class": "Hammer",
+  "material": "Normal Titanite",
+  "dlc": false
+ },
+ {
+  "name": "Reinforced Club",
+  "class": "Hammer",
+  "material": "Normal Titanite",
+  "dlc": false
+ },
+ {
+  "name": "Blacksmith Hammer",
+  "class": "Hammer",
+  "material": "Normal Titanite",
+  "dlc": false
+ },
+ {
+  "name": "Blacksmith Giant Hammer",
+  "class": "Hammer",
+  "material": "Twinkling Titanite",
+  "dlc": false
+ },
+ {
+  "name": "Hammer of Vamos",
+  "class": "Hammer",
+  "material": "Twinkling Titanite",
+  "dlc": false
+ },
+ {
+  "name": "Mace",
+  "class": "Hammer",
+  "material": "Normal Titanite",
+  "dlc": false
+ },
+ {
+  "name": "Morning Star",
+  "class": "Hammer",
+  "material": "Normal Titanite",
+  "dlc": false
+ },
+ {
+  "name": "Warpick",
+  "class": "Hammer",
+  "material": "Normal Titanite",
+  "dlc": false
+ },
+ {
+  "name": "Pickaxe",
+  "class": "Hammer",
+  "material": "Normal Titanite",
+  "dlc": false
+ },
+ {
+  "name": "Great Club",
+  "class": "Great Hammer",
+  "material": "Normal Titanite",
+  "dlc": false
+ },
+ {
+  "name": "Large Club",
+  "class": "Great Hammer",
+  "material": "Normal Titanite",
+  "dlc": false
+ },
+ {
+  "name": "Grant",
+  "class": "Great Hammer",
+  "material": "Twinkling Titanite",
+  "dlc": false
+ },
+ {
+  "name": "Demon's Great Hammer",
+  "class": "Great Hammer",
+  "material": "Twinkling Titanite",
+  "dlc": false
+ },
+ {
+  "name": "Dragon Tooth",
+  "class": "Great Hammer",
+  "material": "Demon Titanite",
+  "dlc": false
+ },
+ {
+  "name": "Smough's Hammer",
+  "class": "Great Hammer",
+  "material": "Demon Titanite",
+  "dlc": false
+ },
+ {
+  "name": "Caestus",
+  "class": "Fist",
+  "material": "Normal Titanite",
+  "dlc": false
+ },
+ {
+  "name": "Claw",
+  "class": "Fist",
+  "material": "Normal Titanite",
+  "dlc": false
+ },
+ {
+  "name": "Dragon Bone Fist",
+  "class": "Fist",
+  "material": "Demon Titanite",
+  "dlc": false
+ },
+ {
+  "name": "Dark Hand",
+  "class": "Fist",
+  "material": "Cannot upgrade",
+  "dlc": true
+ },
+ {
+  "name": "Spear",
+  "class": "Spear",
+  "material": "Normal Titanite",
+  "dlc": false
+ },
+ {
+  "name": "Winged Spear",
+  "class": "Spear",
+  "material": "Normal Titanite",
+  "dlc": false
+ },
+ {
+  "name": "Partizan",
+  "class": "Spear",
+  "material": "Normal Titanite",
+  "dlc": false
+ },
+ {
+  "name": "Channeler's Trident",
+  "class": "Spear",
+  "material": "Twinkling Titanite",
+  "dlc": false
+ },
+ {
+  "name": "Demon's Spear",
+  "class": "Spear",
+  "material": "Twinkling Titanite",
+  "dlc": false
+ },
+ {
+  "name": "Silver Knight Spear",
+  "class": "Spear",
+  "material": "Twinkling Titanite",
+  "dlc": false
+ },
+ {
+  "name": "Pike",
+  "class": "Spear",
+  "material": "Normal Titanite",
+  "dlc": false
+ },
+ {
+  "name": "Dragonslayer Spear",
+  "class": "Spear",
+  "material": "Demon Titanite",
+  "dlc": false
+ },
+ {
+  "name": "Moonlight Butterfly Horn",
+  "class": "Spear",
+  "material": "Demon Titanite",
+  "dlc": false
+ },
+ {
+  "name": "Halberd",
+  "class": "Halberd",
+  "material": "Normal Titanite",
+  "dlc": false
+ },
+ {
+  "name": "Giant's Halberd",
+  "class": "Halberd",
+  "material": "Normal Titanite",
+  "dlc": false
+ },
+ {
+  "name": "Titanite Catch Pole",
+  "class": "Halberd",
+  "material": "Twinkling Titanite",
+  "dlc": false
+ },
+ {
+  "name": "Gargoyle's Halberd",
+  "class": "Halberd",
+  "material": "Normal Titanite",
+  "dlc": false
+ },
+ {
+  "name": "Black Knight Halberd",
+  "class": "Halberd",
+  "material": "Twinkling Titanite",
+  "dlc": false
+ },
+ {
+  "name": "Lucerne",
+  "class": "Halberd",
+  "material": "Normal Titanite",
+  "dlc": false
+ },
+ {
+  "name": "Scythe",
+  "class": "Halberd",
+  "material": "Normal Titanite",
+  "dlc": false
+ },
+ {
+  "name": "Great Scythe",
+  "class": "Halberd",
+  "material": "Normal Titanite",
+  "dlc": false
+ },
+ {
+  "name": "Lifehunt Scythe",
+  "class": "Halberd",
+  "material": "Demon Titanite",
+  "dlc": false
+ },
+ {
+  "name": "Whip",
+  "class": "Whip",
+  "material": "Normal Titanite",
+  "dlc": false
+ },
+ {
+  "name": "Notched Whip",
+  "class": "Whip",
+  "material": "Normal Titanite",
+  "dlc": false
+ },
+ {
+  "name": "Guardian Tail",
+  "class": "Whip",
+  "material": "Twinkling Titanite",
+  "dlc": true
+ },
+ {
+  "name": "Short Bow",
+  "class": "Bow",
+  "material": "Normal Titanite",
+  "dlc": false
+ },
+ {
+  "name": "Longbow",
+  "class": "Bow",
+  "material": "Normal Titanite",
+  "dlc": false
+ },
+ {
+  "name": "Black Bow of Pharis",
+  "class": "Bow",
+  "material": "Normal Titanite",
+  "dlc": false
+ },
+ {
+  "name": "Composite Bow",
+  "class": "Bow",
+  "material": "Normal Titanite",
+  "dlc": false
+ },
+ {
+  "name": "Darkmoon Bow",
+  "class": "Bow",
+  "material": "Twinkling Titanite",
+  "dlc": false
+ },
+ {
+  "name": "Dragonslayer Greatbow",
+  "class": "Bow",
+  "material": "Twinkling Titanite",
+  "dlc": false
+ },
+ {
+  "name": "Gough's Greatbow",
+  "class": "Bow",
+  "material": "Twinkling Titanite",
+  "dlc": true
+ },
+ {
+  "name": "Light Crossbow",
+  "class": "Crossbow",
+  "material": "Normal Titanite",
+  "dlc": false
+ },
+ {
+  "name": "Heavy Crossbow",
+  "class": "Crossbow",
+  "material": "Normal Titanite",
+  "dlc": false
+ },
+ {
+  "name": "Sniper Crossbow",
+  "class": "Crossbow",
+  "material": "Normal Titanite",
+  "dlc": false
+ },
+ {
+  "name": "Avelyn",
+  "class": "Crossbow",
+  "material": "Twinkling Titanite",
+  "dlc": false
+ }
+]

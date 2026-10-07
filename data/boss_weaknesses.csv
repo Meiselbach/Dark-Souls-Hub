@@ -1,0 +1,98 @@
+,Physical,Magic,Fire,Lightning,,Poison,Toxic,Bleed,,Divine,Occult,
+Asylum Demon,83,62,66,54,,104,104,75,,---,---,
+Taurus Demon,103,77,88,67,,150,150,150,,---,---,
+Bell Gargoyles,133,103,98,104,,260,260,230,,---,---,
+Capra Demon,159,119,127,103,,220,220,220,,---,---,
+Gaping Dragon,167,117,108,84,,---,---,118,,---,---,
+Chaos Witch Quelaag,255,229,---,205,,---,---,110,,---,---,
+Iron Golem,408,326,305,245,,---,---,---,,---,---,
+Ornstein,349,226,263,1747,,130,130,240,,---,weak,
+Buffed Ornstein,339,221,256,1697,,130,130,240,,---,weak*,
+Smough,180,153,125,108,,120,120,120,,---,---,
+Buffed Smough,180,153,125,359,,240,240,120,,---,---,
+Dark Sun Gwyndolin,251,251,155,251,,318,318,160,,---,weak,
+Crossbreed Priscilla,324,291,195,195,,370,370,125,,---,---,
+Stray Demon,258,195,207,168,,150,150,75,,---,---,
+Seath the Scaleless,345,690,207,207,,---,---,---,,---,---,
+Moonlight Butterfly,184,230,110,148,,---,---,---,,---,---,
+"Sif, the Great Grey Wolf",260,195,182,195,,320,320,200,,---,---,
+Four Kings,299,205,192,177,,---,---,---,,---,---,
+Pinwheel,173,146,138,113,,200,200,200,,---,---,
+Gravelord Nito,317,238,221,317,,---,---,---,,---,---,
+Ceaseless Discharge,315,220,---,252,,---,---,---,,---,---,
+Demon Firesage,255,192,203,166,,104,104,75,,---,---,
+Centipede Demon,269,174,---,215,,230,230,195,,---,---,
+Bed of Chaos,---,---,---,---,,---,---,---,,---,---,
+"Gwyn, Lord of Cinder",354,267,249,1770,,---,---,240,,---,weak,
+Sanctuary Guardian,300,768,480,1056,,250,250,100,,---,---,
+Knight Artorias,359**,687,638,591,,---,---,---,,---,---,
+Black Dragon Kalameet,468,900,900,762,,---,---,333,,---,---,
+"Manus, Father of the Abyss",324,768,624,720,,---,---,---,,---,---,
+,,,,,,,,,,,,
+,4,4,11,12,,5,5,18,,No Boss is weak to Divine,4,
+,,,,,,,,,,,,
+Every Value is ng+0,**Strike Physical,,,,,,,,,,,
+Every Value is AR,*Not All Values may be accurate,,,,,,,,,,,
+,Sources:,https://docs.google.com/spreadsheets/d/18qRmCd9MMnF6k_9rB7_Znl0pNZVTp75C2zviGSzc_C4/edit#gid=1973471964,,,,,,,,,,
+,,Wiki,,,,,,,,,,
+,,Own Research,,,,,,,,,,
+,,,,,,,,,,,,
+10 Str / 10 Dex / 10 Int / 10 Faith,,,,,,,,,,,,
+Longsword,No Upgrade,Regular Upgrade +15,Raw,Crystal,Magic,Enchanted,Fire,Chaos,Chaos +1 Humanity,Lightning,Divine,Occult
+Physical,80 +11,200 +33,184 +21,216 +36,150 +5,144 +4,192 +0,161 +0,161 +8,200 +0,135 +7,143 +7
+Magic,0,0,0,0,162 +7,148 +9,0,0,0,0,165 +7,150 +7
+Fire,0,0,0,0,0,0,192 +0,184 +0,184 +9,0,0,0
+Lightning,0,0,0,0,0,0,0,0,0,200 +0,0,0
+,,,,,,,,,,,110,110
+,91,233,205,252,324,305,384,345,362,400,314,307
+,,,,,,,,,,,,
+50 Str / 50 Dex / 50 Int / 50 Faith,,,,,,,,,,,,
+Longsword,No Upgrade,Regular Upgrade +15,Raw,Crystal,Magic,Enchanted,Fire,Chaos,Chaos +5 Humanity,Lightning,Divine,Occult
+Physical,80 +71,200 +214,184 +134,216 +231,150 +41,144 +28,192 +0,161 +0,161 +21,200 +0,135 +52,143 +50
+Magic,0,0,0,0,162 +113,148 +153,0,0,0,0,165 +115,150 +123
+Fire,0,0,0,0,0,0,192 +0,184 +0,184 +24,0,0,0
+Lightning,0,0,0,0,0,0,0,0,0,200 +0,0,0
+,,,,,,,,,,,110,110
+,151,414,318,447,466,473,384,345,390,400,467,466
+,,,,,,,,,,,,
+99 Str / 99 Dex / 99 Int / 99 Faith,,,,,,,,,,,,
+Longsword,No Upgrade,Regular Upgrade +15,Raw,Crystal,Magic,Enchanted,Fire,Chaos,Chaos +10 Humanity,Lightning,Divine,Occult
+Physical,80 +81,200 +244,184 +153,216 +264,150 +50,144 +34,192 +0,161 +0,161 +34,200 +0,135 +65,143 +62
+Magic,0,0,0,0,162 +142,148 +192,0,0,0,0,165 +144,150 +154
+Fire,0,0,0,0,0,0,192 +0,184 +0,184 +38,0,0,0
+Lightning,0,0,0,0,0,0,0,0,0,200 +0,0,0
+,,,,,,,,,,,110,110
+,161,444,387,480,504,518,384,345,417,400,509,509
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+Longsword DmgReduction%,No Upgrade,Regular Upgrade +15,Raw,Crystal,Magic,Enchanted,Fire,Chaos,Chaos +10 Humanity,Lightning,Divine,Occult
+Physical,50,50,50,50,50,50,50,50,50,50,50,50
+Magic,10,10,10,10,10,10,10,10,10,10,10,10
+Fire,35,35,35,35,35,35,38.5,38.5,38.5,35,35,35
+Lightning,35,35,35,35,35,35,35,35,35,49,35,35
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,Lightning is the best followed by fire then magic and physical,,,,Real Damage is calculated through Formula,,,,,,,
+,,,,,,,,,,,,
+,Bleed is the best followed by toxic and poison,,,,Thanks to u/TheOneLeftFoot for showing me the damage calculation,,,,,,,
+,,,,,,,,,,,,
+,Occult is better than Divine,,,,Basically just copied everything from here so please check it out yourself,,,,,,,
+,,,,,,,,,,,,
+,All Stats 10 Lightning is the best,,,,https://docs.google.com/spreadsheets/d/1SDQbKEDs0-j1W6cyjGdiad6OvVlcqPA7lM1ZEK4iDoU/edit#gid=0,,,,,,,
+,,,,,,,,,,,,
+,All Stats 50 Enchanted is the best,,,,,,,,,,,
+,,,,,Defence,AR,Motion Value,,Damage Dealt,Damage Reduced [%],,
+,All Stats 99 Enchanted is the best,,,Standard,64,151,100,,"105,302 ","30,264 ",,
+,,,,Strike,,,,,-    ,-    ,,
+Chaos Scales with Humanity,Thanks to u/kudsk98 for reminding me about chaos scaleing,,,Slash,,,,,-    ,-    ,,
+,,,,Thrust,,,,,-    ,-    ,,
+,Fire and Chaos increase fire DmgReduction% by 3.5,,,Counter Thrust,,,,,-    ,-    ,,
+,,,,Leo Counter,,,,,-    ,-    ,,
+,Lightning increases Lightning DmgReduction% by 4,,,Magic,,,,,-    ,-    ,,
+,,,,Fire,,,,,-    ,-    ,,
+,,,,Lightning,,,,,-    ,-    ,,
+,,,,,Total:,151,,Total:,"105,302 ","30,264 ",,
+,,,,Health:,200,,,eff hp | hits to live:,"286,795 ","1,899 ",,
+,,,,,,,,,,,,
+,,,,"Thanks to everyone that helped me, for questions,errors,enhancements please dm u/RxndyOG",,,,,,,,

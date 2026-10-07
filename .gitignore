@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+*.tmp
+
+# personal run log and progress, copy manually between PCs
+save/*.json
