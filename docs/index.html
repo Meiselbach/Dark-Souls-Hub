@@ -1,0 +1,281 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Dark Souls Companion</title>
+<meta name="description" content="Dark Souls Remastered hub: All Weapons / All Bosses tracker, soul level calculator, boss weaknesses and damage calculator, resources.">
+<meta name="theme-color" content="#141210">
+<link rel="icon" href="icon.svg" type="image/svg+xml">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@400;500;700&family=IM+Fell+English+SC&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="top">
+  <div class="brand">
+    <h1>Dark Souls Companion</h1>
+    <p>Prepare to die. Then log it.</p>
+  </div>
+  <nav class="tabs" id="mainnav" aria-label="Sections">
+    <a href="#challenge" data-tab="challenge">Challenge</a>
+    <a href="#levels" data-tab="levels">Level Calculator</a>
+    <a href="#damage" data-tab="damage">Damage &amp; Weaknesses</a>
+    <a href="#resources" data-tab="resources">Resources</a>
+    <a href="#download" data-tab="download" class="dl">Get the app</a>
+  </nav>
+</header>
+
+<main id="main">
+  <!-- ============================ CHALLENGE ============================ -->
+  <section id="tab-challenge" class="page" hidden>
+    <div class="split">
+      <aside class="side">
+        <article class="item-card" aria-labelledby="rl-name">
+          <p class="eyebrow">Next run · roulette</p>
+          <h2 id="rl-name">—</h2>
+          <dl class="kv" id="rl-details"></dl>
+          <div class="rl-actions">
+            <label class="seed">Seed
+              <input type="number" id="rl-seed" min="0" max="999999" step="1" inputmode="numeric">
+            </label>
+            <button type="button" id="rl-reroll" class="btn">Reroll</button>
+          </div>
+          <button type="button" id="rl-start" class="btn primary wide">Start run with this weapon</button>
+        </article>
+
+        <section class="panel" aria-labelledby="st-h">
+          <h3 id="st-h">Challenge status</h3>
+          <div class="bar" role="progressbar" id="st-bar" aria-valuemin="0" aria-valuemax="100"><span></span></div>
+          <p class="bar-label" id="st-bar-label"></p>
+          <dl class="kv" id="st-details"></dl>
+        </section>
+      </aside>
+
+      <div class="work">
+        <div class="subtabs" role="tablist" aria-label="Challenge views" id="subnav">
+          <button role="tab" data-sub="dash" aria-selected="true">Dashboard</button>
+          <button role="tab" data-sub="log" aria-selected="false">Run log</button>
+          <button role="tab" data-sub="weapons" aria-selected="false">Weapons</button>
+          <button role="tab" data-sub="bosses" aria-selected="false">Boss mastery</button>
+        </div>
+
+        <div id="sub-dash" class="subpage">
+          <div class="cards" id="dash-cards"></div>
+          <section class="panel">
+            <h3>Progress by weapon class</h3>
+            <div id="class-progress" class="class-progress"></div>
+          </section>
+        </div>
+
+        <div id="sub-log" class="subpage" hidden>
+          <div class="toolbar">
+            <button type="button" class="btn primary" id="log-new">New run</button>
+            <span class="spacer"></span>
+            <button type="button" class="btn" id="log-import">Import</button>
+            <button type="button" class="btn" id="log-export-json">Export JSON</button>
+            <button type="button" class="btn" id="log-export-csv">Export CSV</button>
+            <input type="file" id="log-file" accept=".json,application/json" hidden>
+          </div>
+          <p class="hint">Saved in this browser. Export JSON is the same format as the desktop app's <code>save/challenge.json</code>, so you can move progress between both.</p>
+          <div class="table-wrap"><table id="log-table"></table></div>
+        </div>
+
+        <div id="sub-weapons" class="subpage" hidden>
+          <div class="toolbar">
+            <label>Show
+              <select id="w-filter"><option>All</option><option>Remaining</option><option>Completed</option><option>Excluded</option></select>
+            </label>
+            <label>Class <select id="w-class"></select></label>
+            <label>Search <input type="search" id="w-search" placeholder="Weapon name"></label>
+          </div>
+          <div class="table-wrap"><table id="w-table"></table></div>
+          <p class="hint">Excluded weapons don't count toward the challenge or the roulette. The list has 117 weapons; the original spreadsheet counted 112.</p>
+        </div>
+
+        <div id="sub-bosses" class="subpage" hidden>
+          <div class="table-wrap"><table id="b-table"></table></div>
+          <p class="hint">Mastery is the share of your kills that were deathless. Click a heading to sort.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================ LEVELS ============================ -->
+  <section id="tab-levels" class="page" hidden>
+    <div class="split narrow-left">
+      <div class="panel">
+        <h2 class="h2">Soul Level Calculator</h2>
+        <p class="hint">Type the stats you want to end up with.</p>
+        <label class="field">Starting class <select id="lv-class"></select></label>
+        <table class="stat-grid" id="lv-stats"></table>
+        <label class="field">Current SL (optional) <input type="number" id="lv-current" min="1" max="713" inputmode="numeric"></label>
+        <div class="toolbar">
+          <button type="button" class="btn" id="lv-reset">Reset to class base</button>
+          <button type="button" class="btn primary" id="lv-best">Use best class</button>
+        </div>
+        <h3>Quick presets</h3>
+        <div class="chips" id="lv-presets"></div>
+      </div>
+
+      <div class="work">
+        <div class="cards two">
+          <section class="panel"><h3>Result</h3><dl class="kv" id="lv-result"></dl></section>
+          <section class="panel"><h3>Derived</h3><dl class="kv" id="lv-derived"></dl></section>
+        </div>
+        <section class="panel">
+          <h3>Every class for this build</h3>
+          <div class="table-wrap"><table id="lv-table"></table></div>
+        </section>
+        <section class="panel">
+          <h3>Level cost lookup</h3>
+          <div class="toolbar">
+            <label>From SL <input type="number" id="lk-from" value="1" min="1" max="713"></label>
+            <label>to SL <input type="number" id="lk-to" value="120" min="1" max="713"></label>
+            <strong id="lk-out" class="big-num"></strong>
+          </div>
+          <p class="hint">SL = class SL + points added. A target below a class's base stat is wasted points for that class. Costs use the DS1 table up to SL 12 and the in-game formula 0.02x³ + 3.06x² + 105.6x − 895 after.</p>
+        </section>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================ DAMAGE ============================ -->
+  <section id="tab-damage" class="page" hidden>
+    <div class="subtabs" role="tablist" aria-label="Damage views" id="dmgnav">
+      <button role="tab" data-sub="weak" aria-selected="true">Boss weaknesses</button>
+      <button role="tab" data-sub="calc" aria-selected="false">Damage calculator</button>
+      <button role="tab" data-sub="ar" aria-selected="false">Longsword AR / infusions</button>
+    </div>
+
+    <div id="dmg-weak" class="subpage">
+      <div class="toolbar">
+        <p class="hint grow">Boss defenses at NG+0. A lower number means the boss takes more damage.</p>
+        <label><input type="radio" name="hm" value="row" checked> Best element per boss</label>
+        <label><input type="radio" name="hm" value="col"> Weakest bosses per element</label>
+      </div>
+      <div class="table-wrap"><table id="weak-table" class="heat"></table></div>
+      <p class="legend"><i class="sw good"></i> weakest <i class="sw bad"></i> strongest <i class="sw none"></i> immune</p>
+      <section class="panel"><h3>Notes from the sheet</h3><ul id="weak-notes" class="notes"></ul></section>
+    </div>
+
+    <div id="dmg-calc" class="subpage" hidden>
+      <div class="split narrow-left">
+        <div class="panel">
+          <h2 class="h2">Damage Calculator</h2>
+          <p class="hint">Your weapon's AR against a target's defense.</p>
+          <label class="field">Target <select id="dc-target"></select></label>
+          <table class="stat-grid" id="dc-grid"></table>
+          <label class="field">Motion value % <input type="number" id="dc-mv" value="100" step="any"></label>
+          <label class="field">Bonus multiplier % <input type="number" id="dc-bonus" value="100" step="any"></label>
+          <label class="field">Target HP <input type="number" id="dc-hp" step="any"></label>
+          <p class="hint">Bonus multiplier: e.g. 110 for Divine/Occult against the right enemy type. Boss HP values are approximate (NG); verify on the wiki.</p>
+        </div>
+        <div class="work">
+          <section class="panel"><pre id="dc-out" class="out"></pre></section>
+          <section class="panel">
+            <h3>Same weapon against every boss</h3>
+            <div class="table-wrap"><table id="dc-table"></table></div>
+          </section>
+        </div>
+      </div>
+    </div>
+
+    <div id="dmg-ar" class="subpage" hidden>
+      <h2 class="h2">Longsword by infusion</h2>
+      <p class="hint">AR (base + scaling) at different stat levels.</p>
+      <div id="ar-tables"></div>
+    </div>
+  </section>
+
+  <!-- ============================ RESOURCES ============================ -->
+  <section id="tab-resources" class="page" hidden>
+    <div class="toolbar">
+      <h2 class="h2 grow">Resources</h2>
+      <button type="button" class="btn primary" id="res-add">Add resource</button>
+    </div>
+    <div id="res-list"></div>
+  </section>
+
+  <!-- ============================ DOWNLOAD ============================ -->
+  <section id="tab-download" class="page" hidden>
+    <h2 class="h2">Take it with you</h2>
+    <div class="cards two">
+      <article class="panel">
+        <h3>Desktop app (Windows, Mac, Linux)</h3>
+        <p>The same four tools as a standalone window. Works offline and keeps your runs in a file you can back up.</p>
+        <ol class="steps">
+          <li>Install <a href="https://www.python.org/downloads/" rel="noopener">Python 3.10 or newer</a> (on Windows tick “Add python.exe to PATH”).</li>
+          <li>Download and unzip the app.</li>
+          <li>Double-click <code>Start DS Companion.bat</code> (Windows) or run <code>python main.py</code>.</li>
+        </ol>
+        <p><a class="btn primary" href="downloads/DarkSoulsCompanion.zip" download>Download DarkSoulsCompanion.zip</a></p>
+        <p class="hint">Nothing else to install: it only uses what ships with Python. Source: <a href="https://github.com/Meiselbach/Dark-Souls-Hub" rel="noopener">github.com/Meiselbach/Dark-Souls-Hub</a>.</p>
+      </article>
+
+      <article class="panel">
+        <h3>Install this website as an app</h3>
+        <p>On phones and in Chrome or Edge, this site can be installed so it opens in its own window and works offline.</p>
+        <p><button type="button" class="btn primary" id="pwa-install" hidden>Install app</button></p>
+        <p class="hint" id="pwa-hint">Use your browser menu: <em>Install app</em> / <em>Add to Home screen</em>.</p>
+        <h3>Move your progress between them</h3>
+        <p>Run log tab → <em>Export JSON</em> here, then copy the file to the desktop app's <code>save/challenge.json</code>. To go the other way, use <em>Import</em> on the Run log tab.</p>
+      </article>
+    </div>
+  </section>
+</main>
+
+<dialog id="run-dialog" aria-labelledby="rd-title">
+  <form method="dialog" id="run-form">
+    <h2 id="rd-title" class="h2">New run</h2>
+    <div class="form-grid">
+      <label>Weapon <input list="weapon-list" id="rd-weapon" required autocomplete="off"></label>
+      <label>Date <input type="date" id="rd-date"></label>
+      <label>Time (h:mm:ss) <input id="rd-time" placeholder="3:22:58" inputmode="numeric" autocomplete="off"></label>
+      <label>Non-boss deaths <span class="counter" data-counter="rd-nb"><button type="button" data-d="-1" aria-label="Fewer">−</button><input type="number" id="rd-nb" min="0" value="0"><button type="button" data-d="1" aria-label="More">+</button></span></label>
+    </div>
+    <datalist id="weapon-list"></datalist>
+    <label class="check"><input type="checkbox" id="rd-done"> Run completed (all bosses dead / credits rolled)</label>
+    <div class="toolbar tight">
+      <h3 class="grow">Bosses</h3>
+      <span id="rd-total" class="hint"></span>
+      <button type="button" class="btn small" id="rd-all">Mark all killed</button>
+      <button type="button" class="btn small" id="rd-none">Clear all</button>
+    </div>
+    <div id="rd-bosses" class="boss-rows"></div>
+    <label class="field">Notes <textarea id="rd-notes" rows="2"></textarea></label>
+    <p class="error" id="rd-error" role="alert"></p>
+    <div class="dialog-actions">
+      <button type="button" class="btn" id="rd-cancel">Cancel</button>
+      <button type="submit" class="btn primary" id="rd-save">Save run</button>
+    </div>
+  </form>
+</dialog>
+
+<dialog id="link-dialog" aria-labelledby="ld-title">
+  <form method="dialog" id="link-form">
+    <h2 id="ld-title" class="h2">Add resource</h2>
+    <label class="field">Title <input id="ld-title-in" required></label>
+    <label class="field">URL <input id="ld-url" type="url" placeholder="https://" required></label>
+    <label class="field">Category <input id="ld-cat" list="cat-list" placeholder="Other"></label>
+    <datalist id="cat-list"></datalist>
+    <label class="field">Description <input id="ld-desc"></label>
+    <div class="dialog-actions">
+      <button type="button" class="btn" id="ld-cancel">Cancel</button>
+      <button type="submit" class="btn primary">Add</button>
+    </div>
+  </form>
+</dialog>
+
+<footer class="foot">
+  <p>Fan-made tool. Not affiliated with FromSoftware or Bandai Namco. Boss defenses from the sheet by u/RxndyOG; damage formula by u/TheOneLeftFoot.</p>
+</footer>
+
+<script src="data.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

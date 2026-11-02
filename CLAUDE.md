@@ -56,10 +56,16 @@ Weapon counts as done when it has a completed run. `excluded` weapons don't coun
   for a Run Log CSV export is a requested-but-unbuilt feature.
 - The DSR-Bingo repo (github.com/Meiselbach/DSR-Bingo) returned 404 to anonymous fetches, probably private.
 
-## Next planned work: web version (NOT STARTED, awaiting Lukas's go-ahead)
+## Web version (BUILT in `docs/`, see below for the original plan)
 
-He asked for a web version. Do not start building until he confirms. He explicitly said not to start
-unprompted. The proposed plan (made with the `frontend-design` skill), shown to him and awaiting confirmation:
+Lukas approved it. `docs/` is a static site (vanilla JS, no framework): `index.html`, `style.css`, `app.js`, `data.js`
+(generated), PWA files, and `downloads/DarkSoulsCompanion.zip` (generated). Run `python tools/build_site.py` after any change to
+`data/` or the desktop app. Progress is in localStorage; Export/Import JSON matches `save/challenge.json`. The roulette uses a JS
+seeded PRNG, so the same seed gives a different weapon than the desktop app. Not yet audited with `web-design-guidelines`.
+
+### Original plan (for reference)
+
+The plan made with the `frontend-design` skill:
 
 - **Job:** log a run fast and see the next weapon. Same 4 sections as the desktop app.
 - **Look:** warm ash background, stone panels, bone-coloured text, ember/estus gold accent. Green/red only for

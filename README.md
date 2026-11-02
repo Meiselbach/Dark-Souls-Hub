@@ -29,3 +29,16 @@ python main.py        (or double-click "Start DS Companion.bat")
 ## Your progress
 
 Saved to `save/challenge.json` after every change. Back that file up to keep your runs.
+
+## Website
+
+`docs/` is a static website with the same four tools plus a download page for the desktop app. No build step to run it:
+open `docs/index.html`, or publish it with GitHub Pages (Settings > Pages > Deploy from branch > `main` / `/docs`).
+
+After you change anything in `data/` or the desktop app, refresh the site's data and the downloadable zip:
+
+```
+python tools/build_site.py
+```
+
+Website progress is stored in the browser. Use **Export JSON / Import** on the Run log tab to move it to or from the desktop app's `save/challenge.json`.
